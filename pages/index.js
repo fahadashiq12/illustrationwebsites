@@ -11,10 +11,9 @@ export default function Home() {
               Illustration Website is all about what you think, we can design!
             </h1>
             <p className="text-xl text-slate-500 max-w-3xl mx-auto">
-              Next.js gives you the best developer experience with all the
-              features you need for production: hybrid static & server
-              rendering, TypeScript support, smart bundling, route pre-fetching,
-              and more. No config needed.
+              Illustration website gives you the best development services with all the
+              features you need for your project dynamic, static & client side rendering,
+              and more. If you are new to Tech Space we are here to build your Digital Presence.
             </p>
             <div className="max-w-md mx-auto grid sm:grid-cols-2 gap-4">
               <Link href="">

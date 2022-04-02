@@ -25,30 +25,32 @@ import Link from "next/link";
 
 const solutions = [
   {
-    name: "Analytics",
+    name: "Theme Development & Customization",
     description:
-      "Get a better understanding of where your traffic is coming from.",
+      "We develop and customize theme as per your need and convience.",
     href: "#",
     icon: ChartBarIcon,
   },
   {
-    name: "Engagement",
-    description: "Speak directly to your customers in a more meaningful way.",
-    href: "#",
-    icon: CursorClickIcon,
-  },
-  {
-    name: "Security",
-    description: "Your customers' data will be safe and secure.",
+    name: "Content Writing",
+    description: "We write SEO friendly content which helps you to define your brand.",
     href: "#",
     icon: ShieldCheckIcon,
   },
   {
-    name: "Integrations",
-    description: "Connect with third-party tools that you're already using.",
+    name: "Wordpress Customization",
+    description: "We customize wordpress theme according to the market needs.",
     href: "#",
     icon: ViewGridIcon,
   },
+  {
+    name: "Email Templates",
+    description: "We are providing Email Template for your marketing compaign.",
+    href: "#",
+    icon: ViewGridIcon,
+  },
+
+
 ];
 const callsToAction = [
   { name: "Watch Demo", href: "#", icon: PlayIcon },
@@ -152,7 +154,7 @@ export default function Header() {
                         "group  rounded-md inline-flex items-center text-base font-medium hover:text-slate-900 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500 focus:bg-white"
                       )}
                     >
-                      <span>Solutions</span>
+                      <span>Services</span>
                       <ChevronDownIcon
                         className={classNames(
                           open ? "text-slate-600" : "text-slate-400",
@@ -233,13 +235,13 @@ export default function Header() {
                 href="#"
                 className="text-base font-medium text-slate-500 hover:text-slate-900"
               >
-                Pricing
+                Themes
               </a>
               <a
                 href="#"
                 className="text-base font-medium text-slate-500 hover:text-slate-900"
               >
-                Docs
+                Pricing
               </a>
               <Popover>
                 {({ open }) => (
